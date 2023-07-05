@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import "./Card.scss"
 import { Link } from "react-router-dom";
 
-const Card = ({ item}) => {
+const Card = ({item}) => {
   return (
     <Link className='link' to={`/product/${item?.id}`}>
       <div className="card">
