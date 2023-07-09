@@ -1,0 +1,30 @@
+.contact {
+  background: #0c0c0c;
+  color: antiquewhite;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .wrapper input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+.contact .wrapper button {
+  background: rgb(56, 45, 206);
+  border-radius: 0 5px 0 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.contact .wrapper .icon {
+  display: flex;
+  gap: 5px;
+}/*# sourceMappingURL=Contact.css.map */
