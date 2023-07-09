@@ -11,6 +11,7 @@ import Product from './pages/Product/Product';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 
+
 const Layout =()=>{
   return(
     <div className='app'>

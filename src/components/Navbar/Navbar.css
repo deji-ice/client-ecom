@@ -1,0 +1,51 @@
+.navbar {
+  height: 80px;
+}
+.navbar .wrapper {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .wrapper .item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.navbar .wrapper .left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar .wrapper .center {
+  font-weight: 700;
+  font-size: 24px;
+}
+.navbar .wrapper .right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar .wrapper .right .icons {
+  gap: 15px;
+  display: flex;
+  color: gray;
+  cursor: pointer;
+}
+.navbar .wrapper .right .cartIcon {
+  position: relative;
+}
+.navbar .wrapper .right .cartIcon span {
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(230, 21, 21);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=Navbar.css.map */
